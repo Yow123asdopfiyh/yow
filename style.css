@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    animation: greetingAnimation 1s ease-in-out;
+}
+
+.introduction {
+    font-size: 18px;
+    margin-top: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnimation 4s steps(40) forwards;
+}
+
+/* Styling for hobbies section */
+#hobbies {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hobbies h2 {
+    color: #3498db;
+}
+
+#school-life {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#school-life h2 {
+    color: #3498db;
+}
+
+@keyframes greetingAnimation {
+    0% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes typingAnimation {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
